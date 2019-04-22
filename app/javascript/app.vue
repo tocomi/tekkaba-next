@@ -6,8 +6,8 @@
   </v-app>
 </template>
 
-<script>
-import Index from './components/Index'
+<script lang="ts">
+import Index from './pages/Index.vue'
 
 export default {
   name: 'App',
