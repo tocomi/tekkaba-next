@@ -1,5 +1,5 @@
 <template lang="pug">
-  v-app#inspire(dark)
+  v-app#inspire
     v-navigation-drawer(v-model="drawer" clipped fixed app)
       v-list(dense)
         v-list-tile(@click="hello('dashboad')")
